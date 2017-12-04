@@ -18,3 +18,5 @@ subtitulo = "Masas: Bulbo = %f, Disco = %f, Halo = %f" % (real[0], real[1], real
 plt.title(subtitulo)
 plt.savefig("plot.png")
 
+
+

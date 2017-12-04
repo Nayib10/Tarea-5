@@ -8,3 +8,5 @@ plot.png : dato.dat bayfit.dat
 dato.dat bayfit.dat: CurvaRotacion.c
 	cc -o curvaRotacion.o CurvaRotacion.c -lm
 	./curvaRotacion.o
+	
+	
